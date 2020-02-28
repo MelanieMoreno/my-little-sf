@@ -1,0 +1,212 @@
+/*-- General --*/
+
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+    margin: auto;
+    color: 	#606060;
+    text-align: center;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.75rem;
+}
+
+/*-- Headings --*/
+
+.big-heading{
+  font-family: 'Courgette';
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.875rem;
+}
+
+.heading-cta {
+  font-family: 'Courgette';
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.875rem;
+}
+
+/*-- Sections --*/
+
+.coloured-light-section{
+  background-color: #fff6f6;
+}
+
+.coloured-dark-section {
+  background-color: #fb929e;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/*-- Title & Nav Bar --*/
+
+#title {
+  text-align: left;
+}
+
+.subtitle{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.container-fluid {
+  padding: 1% 8%;
+}
+
+.table-title {
+  margin-bottom: 60px;
+}
+
+.col-title {
+  margin: auto;
+}
+
+/*-- Nav Bar --*/
+
+.navbar {
+  padding: 0;
+  margin-bottom: 70px;
+}
+
+.nav-item {
+  padding: 0 15px;
+  text-align: right;
+}
+
+.nav-link {
+  font-weight: lighter;
+}
+
+/*-- Title --*/
+
+.btn-explore {
+  background-color: #fb929e;
+  border: none;
+  margin: 5% 3% 5% 0;
+}
+
+.btn-explore:hover {
+  background-color: #606060;
+}
+
+.title-image {
+  position: relative;
+  left: 40px;
+}
+
+/*-- Features --*/
+#features {
+  padding: 8% 8%;
+}
+
+.features-title{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+}
+
+.features-images {
+  color: #fb929e;
+  margin: 1.25rem;
+}
+
+.features-images:hover {
+  color: #ff4c68;
+}
+
+/*-- Roadtrips --*/
+#roadtrips{
+  padding: 4% 8%;
+}
+
+.roadtrips-title {
+  margin-bottom: 4%;
+}
+
+.roadtrips-subtitle{
+  font-size: 1.2rem;
+  font-weight:lighter;
+  font-style: italic;
+}
+
+.roadtrips-images {
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/*-- About --*/
+
+#about {
+  margin: 40px 0;
+  padding: 1% 20%;
+}
+
+.about-myname {
+  font-family: 'Parisienne', cursive;
+  font-size: 2.3rem;
+}
+
+.avatar {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.btn-about {
+  background-color: white;
+  border: solid 1px;
+  border-color: #fb929e;
+  margin: 2% 3%;
+  color: #fb929e;
+}
+
+.btn-about:hover {
+  background-color: #fb929e;
+  border-color: #fb929e;
+}
+
+
+/*-- Call to action --*/
+
+#cta {
+  padding: 10% 8%;
+}
+
+.btn-explore2 {
+  background-color: #fb929e;
+  border: none;
+  }
+
+.btn-explore2:hover {
+background-color: #606060;
+}
+
+/*-- Footer --*/
+#footer {
+  padding: 1%;
+}
+
+.p-footer {
+  color: black;
+  font-size: 0.8rem;
+}
+
+/*-- Mobile-version --*/
+
+@media (max-width:1068px){
+  body{
+    text-align: center;
+  }
+  .title-image {
+    position:static;
+    margin: auto;
+  }
+}
